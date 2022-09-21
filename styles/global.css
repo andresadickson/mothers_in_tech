@@ -1,0 +1,91 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+a{
+    text-decoration: none
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.logo-link{
+    font-family: 'Righteous', cursive;
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 1);
+}
+
+.logo-text::before{
+    content: '<a>';
+}
+
+.logo-link::after{
+    content: '</a>';
+    margin-left: 34.7rem;
+    margin-bottom: 4.4rem;
+}
+nav{
+    margin-right: 5rem;
+}
+ul{
+    display: flex;
+}
+
+ul li{
+    margin-left: 2.9rem;
+    
+}
+
+
+ul li a{
+    font-family: 'Righteous', cursive;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 1);
+    transition: 0.4s all;
+}
+
+ul li a:hover{
+    color: rgb(53, 104, 163);
+    text-decoration: underline;
+}
+
+/* acessibilidade */
+.sr-only{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.pattern-input{
+    /* font-family: Roboto, sans-serif; */
+    display: block;
+    width: 54.6rem;
+    height: 5rem;
+    background-color: rgba(27, 58, 93, 1);
+    color: white;
+    border: none;
+    margin-bottom: 2.3rem;
+    border-radius: .5rem;
+}
+
+.img-team{
+    position: absolute;
+    top: 16rem;
+    right: 0;
+}

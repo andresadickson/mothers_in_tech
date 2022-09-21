@@ -1,0 +1,116 @@
+.box-search{
+    display: flex;
+    align-items:center;
+    width: 100rem;
+    height: 8rem;
+    background-color: rgba(27, 58, 93, 1);
+    margin: 4rem auto;
+    border-radius: 5rem;
+}
+
+.search-input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 3rem;
+    font-family: Poppins, sans-serif;
+    color: white;
+}
+
+.search-input::placeholder{
+    color: rgba(255, 255, 255, 0.36);
+    font-size: 3rem;
+    font-family: Poppins, sans-serif;
+}
+.span-filters{
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    position: absolute;
+    right: 10rem;
+}
+
+.span-filters::before{
+    content: '|';
+    height: 8rem;
+    background-color: rgba(255, 255, 255, 0.36);
+}
+#btn-filters{
+    margin-left:  3rem;
+    font-size: 3rem;
+    font-family: Poppins, sans-serif;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.jobs-container{
+    margin: auto;
+    width: 100rem;
+    height: 24rem;
+    background-color: white;
+    border-radius: .5rem;
+    margin-top: 4rem;
+    margin-bottom: 2.8rem;
+    cursor: pointer;
+}
+
+
+.jobs-container > a{
+        text-decoration: none;
+}
+
+.jobs-container.active{
+    visibility: visible;
+}
+
+.jobs-container.desactive{
+    visibility: hidden;
+}
+
+.name-job{
+    font-size: 3rem;
+    font-family: Poppins, sans-serif;
+    padding: 2rem;
+    display: inline-block;
+}
+
+.locate{
+display: inline-block;
+font-family: Poppins, sans-serif;
+font-size: 2rem;
+color:  rgba(0, 0, 0, 0.25);
+}
+
+.description-job{
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+    margin-left: 2rem;
+    font-size: 2.5rem;
+    font-family: Poppins, sans-serif;
+    margin-top: 3rem;
+    /* font-weight: 200; */
+}
+
+#filters{
+  background-color: rgba(229, 229, 229, 1);
+  height: 200vh;
+  width: 20rem;
+  position: absolute;
+  top:10rem;
+  display: block;
+  visibility:hidden;
+}
+
+#filters li {
+    display: flex;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 3rem;
+    color: rgba(27, 58, 93, 1);
+}
+
+#filters.active{
+    visibility: visible;
+}

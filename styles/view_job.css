@@ -1,0 +1,64 @@
+.box-job{
+    width: 100rem;
+    height: 50rem;
+    background-color: white;
+    margin: 6rem auto;
+    display: grid;
+    border-radius: 0.5rem;
+}
+
+.name-job{
+display: block;
+color: black;
+font-family: 'Poppins', sans-serif;
+font-size: 2.8rem;
+margin-top: 5rem;
+margin-left: 5rem;
+}
+
+.description-job{
+display: block;
+font-size: 1.6rem;
+margin: 0 1rem;
+}
+
+.requisitos-box{
+    margin-left: 6rem;
+    width: 45rem;
+    height: 30rem;
+    background-color: rgba(27, 58, 93, 0.28);
+    display: block;
+    border-radius: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.requisitos-box h3{
+    color: rgba(27, 58, 93, 1);
+    font-size: 2.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.requisitos-box ul li{
+    display: block;
+}
+.img-job{
+    position: absolute;
+    right: 16rem;
+}
+button{
+   position: absolute;
+   top: 56rem;
+   right: 20rem;
+    display: block;
+    width: 28rem;
+    border-radius: 5rem;
+    background-color: rgba(27, 58, 93, 1);
+    color: white;
+    font-family: 'Righteous', cursive;
+    border: none;
+    font-size: 3rem;
+    padding: 1.5rem;
+    cursor: pointer;
+}
